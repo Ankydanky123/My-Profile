@@ -1,0 +1,122 @@
+
+#particles-js{
+    width: 100%;
+    height: 100%;
+    background-image: url('');
+    background-size: cover;
+    background-position: 50% 50%;
+    background-repeat: no-repeat;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height:100vh;
+      /* position:absolute !important;
+  top: 100px; */
+  /* z-index: 1; */
+  }
+  .nav-item a{
+    font-size:23px;
+  }
+  .custom-btn{
+    background-color: rgb(99, 18, 175);
+    color:white;
+    border-radius: 500000000000000000px;
+  }
+  .custom-btn:hover{
+    background-color: rgb(70, 30, 107);
+    color:white;
+    border-radius: 5000000000000px;}
+#particles-js canvas{
+  position:absolute !important;
+  top: 50px;
+  z-index: 1;
+}
+.homepageimg{
+  z-index: 4;
+}
+.homepagetopbox{
+  z-index: 4;
+}
+.homepagetopbox h1{
+  font-weight: 800;
+  font-size: 60px;
+}
+.homepagetopbox h4{
+  font-size: 30px;
+}
+.homepagetopbox button{
+  font-size: 25px;
+  padding: 10px 30px;
+
+}
+.aboutmetitle h1{
+  display: inline;
+  text-align: center;
+  font-weight: bold;
+}
+.aboutmetitle{
+  display:flex;
+  align-items: center;
+  justify-content: center;
+}
+.aboutmetitlesecondword{
+  color:rgb(101, 33, 165);
+}
+.aboutmebottombox{
+  display:flex;
+  flex-direction: row;
+  margin-top: 75px;
+}
+.aboutmebottomrightbox{
+  width:50%;
+}
+.aboutmebottomleftbox{
+  width:50%;
+  margin-left:100px;
+}
+.bluetextforaboutme{
+  color: rgb(58, 0, 216);
+}
+.tabledataforaboutme{
+  margin-right: 30px;
+}
+.gototopbutton{
+  position: fixed;
+  bottom: 20px;
+  right: 50px;
+}
+html{
+  scroll-behavior: smooth;
+}
+.aboutme{
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+.skillsandabilitiestitlesecondword{
+  color:rgb(252, 255, 58)
+}
+.skillsandabilitiestitlefirstword{
+  color: white;
+}
+.skillset{
+  display: flex;
+  background-color:rgb(105, 3, 201);
+  height: 600px;
+  justify-content: center;
+  align-items: center;
+  flex-direction:column;
+}
+.theskills{
+  border-radius: 12px;
+  display: flex;
+  width: 70%;
+  height:450px;
+  background-color:rgb(62, 11, 110);
+}
+.skillset h1{
+  display: flex;
+}
+.skillset h1 svg{
+  align-items: center;
+  color: white;
+}
