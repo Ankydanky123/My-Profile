@@ -10,8 +10,9 @@
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css">
 </head>
 <body>
+  <!-- Header and frontpage background -->
 <div class="container-fluid" id="header">
-    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
         <a class="navbar-brand" href="#"><img src="./Images/Union.png" alt="Image Not Avaliable"></a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
@@ -22,13 +23,13 @@
               <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">About</a>
+              <a class="nav-link" href="#aboutme">About</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">Skills</a>
+              <a class="nav-link" href="#skillset">Skills</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">Education</a>
+              <a class="nav-link" href="#education">Education</a>
             </li>
             <li class="nav-item">
               <a class="nav-link" href="#">Contact</a>
@@ -38,6 +39,7 @@
       </nav>
     </div>
     <div id="particles-js">
+      <!-- Front Page -->
       <div class="homepagetopbox">
         <h1>
           Hi There,
@@ -45,11 +47,14 @@
         <h1>
           I'm Ankush Pradish
         </h1>
-        <h4>
-        I am into Web Development.  
-        </h4>
+        <h2>
+          <a href="" class="typewrite" data-period="2000"
+              data-type='[ "a Web Developer", "a Student", "a Gamer"]'>
+              <span class="wrap">Hi, I am </span>
+          </a>
+      </h2>
         <button class="btn custom-btn">
-          About Me &nbsp;<i class="bi bi-arrow-down-circle-fill"></i>
+          <a class="aboutmebutton" href="#aboutme">About Me &nbsp;<i class="bi bi-arrow-down-circle-fill"></i></a>
         </button>
         <br>
         <br>
@@ -58,13 +63,14 @@
         <img src="./Images/personbitmoji-removebg-preview.png" alt="Image Not Avaliable">
       </div>
     </div>
-    <div class="aboutme">
+    <!-- About me -->
+    <div class="aboutme" id="aboutme">
       <div class="aboutmetitle">
         <svg class="aboutmetitleimg" xmlns="http://www.w3.org/2000/svg" width="60" height="60" fill="currentColor" class="bi bi-person-fill" viewBox="0 0 16 16">
           <path d="M3 14s-1 0-1-1 1-4 6-4 6 3 6 4-1 1-1 1H3Zm5-6a3 3 0 1 0 0-6 3 3 0 0 0 0 6Z"/>
         </svg>
       <h1>
-        About <span class="aboutmetitlesecondword">Me</span>
+        About <span class="purpletext">Me</span>
       </h1>  
       </div>
       <div class="aboutmebottombox">
@@ -103,18 +109,145 @@
         </svg></a>   
         </div>
       </div>
-      <div class="skillset">
+      <!-- Skills Section -->
+      <div id="skillset" class="skillset">
         <h1><svg xmlns="http://www.w3.org/2000/svg" width="60" height="60" fill="currentColor" class="bi bi-code" viewBox="0 0 16 16">
           <path d="M5.854 4.854a.5.5 0 1 0-.708-.708l-3.5 3.5a.5.5 0 0 0 0 .708l3.5 3.5a.5.5 0 0 0 .708-.708L2.707 8l3.147-3.146zm4.292 0a.5.5 0 0 1 .708-.708l3.5 3.5a.5.5 0 0 1 0 .708l-3.5 3.5a.5.5 0 0 1-.708-.708L13.293 8l-3.147-3.146z"/>
         </svg><span class="skillsandabilitiestitlefirstword">Skills &</span> <span class="skillsandabilitiestitlesecondword">Abilities</span></h1>
         <div class="theskills">
-          <div class="skill">
-            <img src="./Images/bootstrap_with_white_background-removebg-preview (2).png" alt="Image Not Available">
+          <div class="skill" id="bootstrap">
+            <img src="./Images/Group 2.png" alt="Image Not Available">
+            <h2>Bootstrap</h2>
+          </div>
+          <div class="skill" id="bootstrap">
+            <img src="./Images/html5.png" alt="Image Not Available">
+            <h2>HTML5</h2>
+          </div>
+          <div class="skill" id="bootstrap">
+            <img src="./Images/css3.png" alt="Image Not Available">
+            <h2>CSS3</h2>
+          </div>
+          <div class="skill" id="bootstrap">
+            <img src="./Images/javascript.png" alt="Image Not Available">
+            <h2>Javascript</h2>
+          </div>
+          <div class="skill" id="bootstrap">
+            <img src="./Images/github.png" alt="Image Not Available">
+            <h2>GitHub</h2>
+          </div>
+          <div class="skill" id="bootstrap">
+            <img src="./Images/python.png" alt="Image Not Available">
+            <h2>Python</h2>
           </div>
         </div>
       </div>
+    <!-- Education section -->
+    <div id="education" class="education">
+      <h1 class="educationtitle">
+        <svg xmlns="http://www.w3.org/2000/svg" width="36" height="36" fill="currentColor" class="bi bi-mortarboard-fill" viewBox="0 0 16 16">
+          <path d="M8.211 2.047a.5.5 0 0 0-.422 0l-7.5 3.5a.5.5 0 0 0 .025.917l7.5 3a.5.5 0 0 0 .372 0L14 7.14V13a1 1 0 0 0-1 1v2h3v-2a1 1 0 0 0-1-1V6.739l.686-.275a.5.5 0 0 0 .025-.917l-7.5-3.5Z"/>
+          <path d="M4.176 9.032a.5.5 0 0 0-.656.327l-.5 1.7a.5.5 0 0 0 .294.605l4.5 1.8a.5.5 0 0 0 .372 0l4.5-1.8a.5.5 0 0 0 .294-.605l-.5-1.7a.5.5 0 0 0-.656-.327L8 10.466 4.176 9.032Z"/>
+        </svg>
+        My <span class="purpletext">Education</span>
+      </h1>
+      <div class="educationbox">
+        <div class="eduimage">
+          <img src="./Images/preschoool.jpg" alt="Image Not Available">
+        </div>
+        <div class="eduboxtext">
+          <h1>Maple Tree PreSchool</h1>
+          <h2>2013-2014 | Completed</h2>
+        </div>
+      </div>
+      <div class="educationbox">
+        <div class="eduimage">
+          <img src="./Images/sudbury school.jpg" alt="Image Not Available">
+        </div>
+        <div class="eduboxtext">
+          <h1>Macleod Public School</h1>
+          <h2>2014-2016 | Completed</h2>
+        </div>
+      </div>
+      <div class="educationbox">
+        <div class="eduimage">
+          <img src="./Images/arbor glen.jpg" alt="Image Not Available">
+        </div>
+        <div class="eduboxtext">
+          <h1>Arbor Glen Public School</h1>
+          <h2>2016-2020 | Completed</h2>
+        </div>
+      </div>
+      <div class="educationbox">
+        <div class="eduimage">
+          <img src="./Images/steeleiw.jpg" alt="Image Not Available">
+        </div>
+        <div class="eduboxtext">
+          <h1>Steeelsview P.S.</h1>
+          <h2>2020-2022 | Completed</h2>
+        </div>
+      </div>
+      <div class="educationbox">
+        <div class="eduimage">
+          <img src="./Images/zion.jpg" alt="Image Not Available">
+        </div>
+        <div class="eduboxtext">
+          <h1>Zion Heights M.S.</h1>
+          <h2>2022-2025 | Pursuing</h2>
+        </div>
+      </div>
     </div>
-  
+    <!-- Contact -->
+    <div class="contact">
+<div class="contacttitle">
+  <h1>
+    <svg xmlns="http://www.w3.org/2000/svg" width="42" height="42" fill="currentColor" class="bi bi-headset" viewBox="0 0 16 16">
+      <path d="M8 1a5 5 0 0 0-5 5v1h1a1 1 0 0 1 1 1v3a1 1 0 0 1-1 1H3a1 1 0 0 1-1-1V6a6 6 0 1 1 12 0v6a2.5 2.5 0 0 1-2.5 2.5H9.366a1 1 0 0 1-.866.5h-1a1 1 0 1 1 0-2h1a1 1 0 0 1 .866.5H11.5A1.5 1.5 0 0 0 13 12h-1a1 1 0 0 1-1-1V8a1 1 0 0 1 1-1h1V6a5 5 0 0 0-5-5z"/>
+    </svg>
+    Get In <span class="purpletext">Touch</span>
+  </h1>
+</div>
+<div class="contactbox">
+  <div class="imageboxforcontact">
+  <img src="./Images/person.png" alt="Image Not Available">
+  </div>
+  <div class="formboxforcontact">
+<form action="backend.js">
+  <div class="inputbox">
+    <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" fill="currentColor" class="bi bi-person-fill" viewBox="0 0 16 16">
+      <path d="M3 14s-1 0-1-1 1-4 6-4 6 3 6 4-1 1-1 1H3Zm5-6a3 3 0 1 0 0-6 3 3 0 0 0 0 6Z"/>
+    </svg>
+    <input type="text" placeholder="Name">
+  </div>
+  <div class="inputbox">
+    <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" fill="currentColor" class="bi bi-envelope-fill" viewBox="0 0 16 16">
+      <path d="M.05 3.555A2 2 0 0 1 2 2h12a2 2 0 0 1 1.95 1.555L8 8.414.05 3.555ZM0 4.697v7.104l5.803-3.558L0 4.697ZM6.761 8.83l-6.57 4.027A2 2 0 0 0 2 14h12a2 2 0 0 0 1.808-1.144l-6.57-4.027L8 9.586l-1.239-.757Zm3.436-.586L16 11.801V4.697l-5.803 3.546Z"/>
+    </svg>
+    <input type="email" placeholder="Email">
+  </div>
+  <div class="inputbox">
+    <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" fill="currentColor" class="bi bi-telephone-fill" viewBox="0 0 16 16">
+      <path fill-rule="evenodd" d="M1.885.511a1.745 1.745 0 0 1 2.61.163L6.29 2.98c.329.423.445.974.315 1.494l-.547 2.19a.678.678 0 0 0 .178.643l2.457 2.457a.678.678 0 0 0 .644.178l2.189-.547a1.745 1.745 0 0 1 1.494.315l2.306 1.794c.829.645.905 1.87.163 2.611l-1.034 1.034c-.74.74-1.846 1.065-2.877.702a18.634 18.634 0 0 1-7.01-4.42 18.634 18.634 0 0 1-4.42-7.009c-.362-1.03-.037-2.137.703-2.877L1.885.511z"/>
+    </svg>
+    <input type="number" placeholder="Phone Number">
+  </div>
+  <div class="inputbox" id="message">
+    <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" fill="currentColor" class="bi bi-chat-dots-fill" viewBox="0 0 16 16">
+      <path d="M16 8c0 3.866-3.582 7-8 7a9.06 9.06 0 0 1-2.347-.306c-.584.296-1.925.864-4.181 1.234-.2.032-.352-.176-.273-.362.354-.836.674-1.95.77-2.966C.744 11.37 0 9.76 0 8c0-3.866 3.582-7 8-7s8 3.134 8 7zM5 8a1 1 0 1 0-2 0 1 1 0 0 0 2 0zm4 0a1 1 0 1 0-2 0 1 1 0 0 0 2 0zm3 1a1 1 0 1 0 0-2 1 1 0 0 0 0 2z"/>
+    </svg>
+    <textarea name="" id="" cols="30" rows="10" placeholder="Message"></textarea>
+  </div>
+<button class="submit-btn" type="submit">
+  Submit
+  <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor" class="bi bi-send" viewBox="0 0 16 16">
+    <path d="M15.854.146a.5.5 0 0 1 .11.54l-5.819 14.547a.75.75 0 0 1-1.329.124l-3.178-4.995L.643 7.184a.75.75 0 0 1 .124-1.33L15.314.037a.5.5 0 0 1 .54.11ZM6.636 10.07l2.761 4.338L14.13 2.576 6.636 10.07Zm6.787-8.201L1.591 6.602l4.339 2.76 7.494-7.493Z"/>
+  </svg>
+</button>
+</form>
+  </div>
+</div>
+    </div>
+    </div>
+    <script src="./JS/typing_text.js"></script>
     <script src="./JS/particles.js"></script>
     <script src="./JS/app.js"></script>
     <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
