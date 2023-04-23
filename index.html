@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="./Images/person.ico" type="image/x-icon">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
     <title>Portfolio | Ankush Pradish</title>
     <link rel="stylesheet" href="./CSS/homepagestyle.css">
@@ -19,20 +20,20 @@
         </button>
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
           <ul class="navbar-nav ml-auto">
-            <li class="nav-item active">
+            <li class="nav-item" id="homenav" onclick="boldtext('home')">
               <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
             </li>
-            <li class="nav-item">
+            <li class="nav-item" id="aboutnav" onclick="boldtext('about')">
               <a class="nav-link" href="#aboutme">About</a>
             </li>
-            <li class="nav-item">
+            <li class="nav-item" id="skillsnav" onclick="boldtext('skills')">
               <a class="nav-link" href="#skillset">Skills</a>
             </li>
-            <li class="nav-item">
+            <li class="nav-item" id="educationnav"  onclick="boldtext('education')">
               <a class="nav-link" href="#education">Education</a>
             </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">Contact</a>
+            <li onclick="boldtext('contact')" class="nav-item " id="contactnav">
+              <a class="nav-link" href="#contact">Contact</a>
             </li>
           </ul>
         </div>
@@ -197,7 +198,7 @@
       </div>
     </div>
     <!-- Contact -->
-    <div class="contact">
+    <div class="contact" id="contact">
 <div class="contacttitle">
   <h1>
     <svg xmlns="http://www.w3.org/2000/svg" width="42" height="42" fill="currentColor" class="bi bi-headset" viewBox="0 0 16 16">
@@ -246,7 +247,81 @@
   </div>
 </div>
     </div>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <!-- Footer -->
+<footer class="page-footer font-small indigo">
+  <div class="container text-center text-md-left">
+    <div class="row">
+      <div class="col-md-3 mx-auto">
+        <h5 class="font-weight-bold text-uppercase mt-3 mb-4">Ankush's Portfolio</h5>
+
+        <ul class="list-unstyled">
+          <li>
+            <h6>Thank you for visiting my personal portfolio website. Connect with me over socials.</h6>
+          </li>
+        </ul>
+
+      </div>
+      <!-- Grid column -->
+
+      <hr class="clearfix w-100 d-md-none">
+
+      <!-- Grid column -->
+      <div class="col-md-3 mx-auto">
+
+        <!-- Links -->
+        <h5 class="font-weight-bold text-uppercase mt-3 mb-4">Quick Links</h5>
+
+        <ul class="list-unstyled">
+          <li>
+            <a href="#">Home</a>
+          </li>
+          <li>
+            <a href="#aboutme">About</a>
+          </li>
+          <li>
+            <a href="#skillset">Skills</a>
+          </li>
+          <li>
+            <a href="#education">Education</a>
+          </li>
+        </ul>
+
+      </div>
+      <!-- Grid column -->
+
+      <hr class="clearfix w-100 d-md-none">
+
+      <!-- Grid column -->
+      <div class="col-md-3 mx-auto">
+        <h5 class="font-weight-bold text-uppercase mt-3 mb-4">Contact Info</h5>
+        <ul class="list-unstyled">
+          <li>
+            <p>Phone Number: +1 437-258-8646</p>
+          </li>
+          <br>
+          <li>
+            <p>Email: anky.pradish@gmail.com</p>
+          </li>
+          <br>
+          <li>
+            <p>Location: Toronto, Canada</p>
+          </li>
+        </ul>
+      </div>
     </div>
+  </div>
+  <div class="footer-copyright text-center py-3">© 2023 Copyright <br> All Rights Reserved
+  </div>
+</footer>
+    </div>
+    <script src="./JS/boldtext.js"></script>
     <script src="./JS/typing_text.js"></script>
     <script src="./JS/particles.js"></script>
     <script src="./JS/app.js"></script>

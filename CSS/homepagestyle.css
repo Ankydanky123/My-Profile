@@ -137,7 +137,7 @@ html{
  background-color: #1D1E26;
  height: 167px;
  padding: 10px;
- width: 250px;
+ width: 227px;
  margin: 10px 0px;
 }
 .educationtitle{
@@ -179,7 +179,8 @@ text-decoration: none !important;
 color: white !important;
 }
 .typewrite {
-text-decoration: none !important;
+  color: red !important;
+  text-decoration: none !important;
 }
 .typewrite:hover{
 text-decoration: none !important;
@@ -242,7 +243,23 @@ form{
   align-items: center;
   justify-content: center;
   margin-left: auto;
+  background-color: purple;
+  color: white;
+  border: none;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  border-radius: 10px;
 }
 .submit-btn svg{
   margin-left: 10px;
+}
+footer{
+  background-color: #303739;
+  color: white;
+}
+.wrap{
+  color: red;
+}
+.first-text{
+  color: black;
 }
