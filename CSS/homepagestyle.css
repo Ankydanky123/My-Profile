@@ -263,3 +263,40 @@ footer{
 .first-text{
   color: black;
 }
+@media only screen and (max-width:450px){
+
+ 
+img{
+  width: 100px;
+}
+.aboutmebottombox{
+
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.contactbox{
+  flex-wrap: wrap;
+
+}
+.homepageimg{
+  display: none;
+}
+.aboutmebottomleftbox{
+  display: none;
+}
+.eduimage img{
+  width: 203px;
+}
+.educationbox{
+  flex-wrap: wrap;
+}
+.formboxforcontact{
+  width: 100%;
+}
+.imageboxforcontact{
+  display: none;
+}
+.aboutmebottomrightbox{
+  width: 70%;
+}
+}
